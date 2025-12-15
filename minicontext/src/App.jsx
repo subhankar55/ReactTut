@@ -1,18 +1,18 @@
-import { useState } from 'react'
-
+import React from 'react'
 import './App.css'
 
 import UserContextProvider from './context/UserContextProvider.jsx';
+import Profile from './components/Profile.jsx';
+import Login from './components/Login.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
       <UserContextProvider>
         <h1>React with Chai</h1>
+        <Login />
+        <Profile />
       </UserContextProvider>
-    </>
   )
 }
 
