@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({username="ZombieClub Token"}){
     return(
-        <div><div className="bg-gradient-to-r relative from-[#73e0a956] to-[#5B68DF] p-1 max-w-[330px] min-h-[525px] text-white rounded-xl  ">
+        <div><div className="bg-linear-to-r relative from-[#73e0a956] to-[#5B68DF] p-1 max-w-[330px] min-h-[525px] text-white rounded-xl  ">
       <div className="w-full min-h-full rounded-xl bg-[#ffffffdc] flex flex-col justify-center items-center p-2">
         <div className="relative">
           <img src="/src/assets/Rectangle3.png" />
